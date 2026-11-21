@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">English Tutor</string>
+    <string name="app_subtitle_bn">বাংলাভাষীদের জন্য সহজ ইংরেজি কথোপকথন শিক্ষক</string>
+    <string name="app_subtitle_en">Personal AI English Speaking Teacher</string>
+    <string name="free_forever_notice">১০০% ফ্রি • কোনো বিজ্ঞাপন বা সাবস্ক্রিপশন নেই</string>
+    <string name="error_no_internet_bn">ইন্টারনেট সংযোগ নেই। অফলাইন লেসন ও শব্দভান্ডার ব্যবহার করুন।</string>
+    <string name="error_mic_permission_bn">কথা বলার জন্য মাইক্রোফোন অনুমতি প্রয়োজন।</string>
+    <string name="error_api_unavailable_bn">সার্ভার এখন ব্যস্ত বা বন্ধ আছে। কিছুক্ষণ পর আবার চেষ্টা করুন।</string>
+    <string name="error_invalid_token_bn">সেশন টোকেন বাতিল বা মেয়াদোত্তীর্ণ হয়েছে। আবার সংযোগ করুন।</string>
+    <string name="error_webrtc_failed_bn">ভয়েস কল সংযোগ বিচ্ছিন্ন হয়েছে।</string>
+    <string name="error_audio_playback_bn">অডিও চালু করতে সমস্যা হয়েছে।</string>
+    <string name="error_database_bn">তথ্য সংরক্ষণে সাময়িক সমস্যা হয়েছে।</string>
+    <string name="error_session_timeout_bn">এই সেশনের নির্ধারিত সময় শেষ হয়েছে। নতুন সেশন শুরু করুন।</string>
+    <string name="cd_tutor_avatar">AI English Teacher Avatar</string>
+    <string name="cd_welcome_hero">English learning illustration</string>
+</resources>

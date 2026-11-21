@@ -1,0 +1,6 @@
+{
+  "name": "AI English Tutor",
+  "description": "Free AI English-speaking tutor for Bengali-speaking beginners with live WebRTC voice practice, offline lessons, vocabulary, grammar correction, and pronunciation feedback.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
