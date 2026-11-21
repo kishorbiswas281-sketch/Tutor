@@ -19,6 +19,12 @@ jobs:
           distribution: temurin
           java-version: "21"
 
+      - name: Set up Android SDK & accept licenses
+        uses: android-actions/setup-android@v3
+
+      - name: Accept all Android SDK licenses
+        run: yes | sdkmanager --licenses || true
+
       - name: Set up Gradle 9.3.1
         uses: gradle/actions/setup-gradle@v4
         with:
@@ -31,7 +37,7 @@ jobs:
           fi
 
       - name: Build Debug APK
-        run: gradle :app:assembleDebug
+        run: gradle :app:assembleDebug --no-daemon --stacktrace -Dorg.gradle.jvmargs="-Xmx3g -XX:MaxMetaspaceSize=768m -Dfile.encoding=UTF-8"
 
       - name: Upload app-debug.apk artifact
         uses: actions/upload-artifact@v4
